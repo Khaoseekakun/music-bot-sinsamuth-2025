@@ -1,4 +1,4 @@
-import {Structure, Plugin, EqualizerBand} from "../../sinsacord/dist";
+import {Structure, Plugin, EqualizerBand} from "../../sinsacord/src";
 
 export class customFilter extends Plugin {
     public load() {
