@@ -1,17 +1,17 @@
 สิทธิ์การใช้งาน
 
-ซอฟต์แวร์นี้ (“โครงการ”) พัฒนาโดย https://github.com/Khaoseekakun/ และเผยแพร่ภายใต้เงื่อนไขดังต่อไปนี้:
+ซอฟต์แวร์นี้ ("music-bot-sinsamuth") พัฒนาโดย https://github.com/Khaoseekakun/ และเผยแพร่ภายใต้เงื่อนไขดังต่อไปนี้:
 
-1. **การใช้ส่วนบุคคลเท่านั้น**  
+1. การใช้ส่วนบุคคลเท่านั้น  
 ห้ามนำซอฟต์แวร์นี้ หรือส่วนใดส่วนหนึ่งของซอฟต์แวร์นี้ ไปใช้ในเชิงพาณิชย์ หรือจำหน่ายต่อ ไม่ว่าจะโดยตรงหรือโดยอ้อม
 
-2. **การแก้ไขและการแจกจ่ายต่อ**  
+2. การแก้ไขและการแจกจ่ายต่อ  
 หากคุณนำซอฟต์แวร์นี้ไปแก้ไข ดัดแปลง หรือใช้ส่วนใดส่วนหนึ่งของซอฟต์แวร์นี้ คุณต้องให้เครดิตกับผู้พัฒนาเดิม โดยระบุ:
 - ลิงก์ไปยังผู้พัฒนา: https://github.com/Khaoseekakun/
 - ลิงก์ไปยังโปรเจ็กต้นฉบับ: https://github.com/Khaoseekakun/music-bot-sinsamuth-2025
 
-3. **ไม่มีการรับประกัน**  
-ซอฟต์แวร์นี้จัดทำขึ้น “ตามสภาพที่เป็นอยู่” โดยไม่มีการรับประกันใด ๆ ทั้งโดยชัดแจ้งหรือโดยนัย ผู้พัฒนาจะไม่รับผิดชอบต่อความเสียหายหรือความสูญเสียที่อาจเกิดขึ้นจากการใช้ซอฟต์แวร์นี้
+3. ไม่มีการรับประกัน  
+ซอฟต์แวร์นี้จัดทำขึ้น "ตามสภาพที่เป็นอยู่" โดยไม่มีการรับประกันใด ๆ ทั้งโดยชัดแจ้งหรือโดยนัย ผู้พัฒนาจะไม่รับผิดชอบต่อความเสียหายหรือความสูญเสียที่อาจเกิดขึ้นจากการใช้ซอฟต์แวร์นี้
 
 หากคุณไม่เห็นด้วยกับเงื่อนไขนี้ กรุณาอย่าใช้หรือแจกจ่ายซอฟต์แวร์นี้
 
@@ -19,17 +19,17 @@
 
 License
 
-This software (“Project”) is developed by https://github.com/Khaoseekakun/ and released under the following terms:
+This software ("music-bot-sinsamuth") is developed by https://github.com/Khaoseekakun/ and released under the following terms:
 
-1. **Non-Commercial Use Only**  
+1. Non-Commercial Use Only  
 You are not allowed to use this software or any part of it for commercial purposes or sell it, either directly or indirectly.
 
-2. **Modification and Redistribution**  
+2. Modification and Redistribution  
 If you modify, adapt, or redistribute this software or any part of it, you must give proper credit by including:
 - Link to the author: https://github.com/Khaoseekakun/
 - Link to the original project: https://github.com/Khaoseekakun/music-bot-sinsamuth-2025
 
-3. **No Warranty**  
-This software is provided “as is,” without warranty of any kind, express or implied. The author shall not be liable for any damages or losses arising from the use of this software.
+3. No Warranty  
+This software is provided "as is," without warranty of any kind, express or implied. The author shall not be liable for any damages or losses arising from the use of this software.
 
 If you do not agree to these terms, please do not use or distribute this software.
