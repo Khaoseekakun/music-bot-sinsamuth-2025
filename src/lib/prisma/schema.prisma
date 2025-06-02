@@ -10,6 +10,15 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "mongodb"
   url      = env("DATABASE_URL")
+}
+
+model Prefix {
+  id       String  @id @default(auto()) @map("_id") @db.ObjectId
+  guild_id String
+  prefix   String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 }
