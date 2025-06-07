@@ -1,8 +1,8 @@
 import { Client, Collection } from "discord.js";
-import { Manager } from "../lib/sinsacord/src"
+import { Riffy } from "riffy";
 
 export interface ClientBot extends Client {
     slashCommands: Collection<string, any>,
     messageCommands: Collection<string, any>,
-    manager: Manager,
+    manager: Riffy,
 }
