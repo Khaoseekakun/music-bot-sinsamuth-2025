@@ -28,5 +28,4 @@ client.manager = ManagerCreate()
 client.login(process.env.DISCORD_TOKEN)
 
 export {client};
-
 HandlerLoader()
