@@ -95,7 +95,7 @@ plugins:
 
     oauth:
       enabled: true
-      refreshToken: ""
+      refreshToken: ''
       skipInitialization: false
 
   lavasrc:
