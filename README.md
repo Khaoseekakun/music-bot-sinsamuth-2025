@@ -55,6 +55,163 @@ DATABASE_URL=your_database_connection_string
 
 ---
 
+คุณสามารถเพิ่มไฟล์ `application.yml` ที่คุณให้มาใน README ได้โดยใส่ไว้ในหัวข้อใหม่ เช่น `🔧 ตัวอย่างการตั้งค่า Lavalink` หรือ `📄 ตัวอย่างไฟล์ config` แล้วใช้ code block เพื่อแสดง YAML อย่างชัดเจน
+
+นี่คือตัวอย่างที่ปรับให้พร้อมใส่ต่อท้าย README เดิมของคุณ:
+
+---
+
+## 🔧 ตัวอย่างการตั้งค่า Lavalink (`application.yml`)
+
+หากคุณใช้ [Lavalink](https://github.com/lavalink-devs/Lavalink) ร่วมกับบอทนี้ คุณสามารถใช้การตั้งค่าดังต่อไปนี้:
+
+```yml
+server: # REST and WS server
+  port: 2333
+  address: 0.0.0.0
+  http2:
+    enabled: false
+lavalink:
+  plugins:
+    - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:4.7.0"
+      repository: "https://maven.lavalink.dev/releases"
+      snapshot: false
+    - dependency: "com.github.topi314.lavasearch:lavasearch-plugin:1.0.0"
+      repository: "https://maven.lavalink.dev/releases"
+      snapshot: false
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.13.2"
+      snapshot: false
+  server:
+    password: "123456789"
+    sources:
+      youtube: false
+      bandcamp: true
+      soundcloud: true
+      twitch: true
+      vimeo: true
+      nico: true
+      http: true
+    filters:
+      volume: true
+      equalizer: true
+      karaoke: true
+      timescale: true
+      tremolo: true
+      vibrato: true
+      distortion: true
+      rotation: true
+      channelMix: true
+      lowPass: true
+    bufferDurationMs: 400
+    frameBufferDurationMs: 5000
+    opusEncodingQuality: 10
+    resamplingQuality: LOW
+    trackStuckThresholdMs: 10000
+    useSeekGhosting: true
+    youtubePlaylistLoadLimit: 6
+    playerUpdateInterval: 5
+    youtubeSearchEnabled: true
+    soundcloudSearchEnabled: true
+    gc-warnings: true
+plugins:
+  youtube:
+    enabled: true
+    allowSearch: true
+    allowDirectVideoIds: true
+    allowDirectPlaylistIds: true
+    clients:
+      - TVHTML5EMBEDDED
+      - TV
+      - MUSIC
+      - WEB
+      - ANDROID
+      - ANDROID_MUSIC
+      - ANDROID_VR
+      - IOS
+    ANDROID_MUSIC:
+      playlistLoading: false
+      videoLoading: true
+      searching: true
+      playback: true
+    MUSIC:
+      playlistLoading: false
+      videoLoading: true
+      searching: true
+      playback: false
+    WEB:
+      playlistLoading: false
+      videoLoading: true
+      searching: true
+      playback: true
+    WEBEMBEDDED:
+      playlistLoading: false
+      videoLoading: false
+      searching: false
+      playback: true
+    TVHTML5EMBEDDED:
+      playlistLoading: false
+      videoLoading: false
+      searching: false
+      playback: true
+    IOS:
+      playlistLoading: false
+      videoLoading: true
+      searching: true
+      playback: false
+    oauth:
+      enabled: true
+      refreshToken: ''
+      skipInitialization: false
+  lavasrc:
+    providers:
+      - 'ytsearch:"%ISRC%"'
+      - "ytsearch:%QUERY%"
+    sources:
+      spotify: false
+      applemusic: false
+      deezer: false
+      yandexmusic: false
+      flowerytts: false
+      youtube: true
+  dunctebot:
+    ttsLanguage: "en-AU"
+    sources:
+      getyarn: true
+      clypit: true
+      tts: true
+      pornhub: true
+      reddit: true
+      ocremix: true
+      tiktok: true
+      mixcloud: true
+      soundgasm: true
+      pixeldrain: true
+metrics:
+  prometheus:
+    enabled: false
+    endpoint: /metrics
+sentry:
+  dsn: ""
+  environment: ""
+logging:
+  file:
+    path: ./logs/
+  level:
+    root: INFO
+    lavalink: INFO
+  request:
+    enabled: true
+    includeClientInfo: true
+    includeHeaders: false
+    includeQueryString: true
+    includePayload: true
+    maxPayloadLength: 10000
+  logback:
+    rollingpolicy:
+      max-file-size: 1GB
+      max-history: 30
+```
+
 ### 5️⃣ สร้าง Prisma Client
 
 ```bash
